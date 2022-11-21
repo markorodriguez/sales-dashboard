@@ -20,7 +20,7 @@ const Home: NextPage = () => {
                   <input className='md:my-4 my-2 py-3 shadow-md rounded-md  md:w-3/6 w-5/6 px-4' placeholder='*********************' type="password" required />
                 </form>
 
-                <Link href="/admin/dashboard">
+                <Link href="/dashboard">
                   <button className='bg-mblack shadow-lg w-3/6 text-white font-semibold  py-3 rounded-xl border-2 border-mblack hover:text-mblack hover:bg-slate-100 transition-all'>Login</button>
                 </Link>
                 
